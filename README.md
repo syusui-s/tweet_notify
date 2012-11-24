@@ -5,6 +5,10 @@ tweet_notify : mikutter用ツイート通知プラグイン
 ユーザーは、複数指定可能です。地震情報の取得のような用途を想定して作りました。  
 が、通知が必ず届くということは保証しません。
 
+##ファイル
+* tweet_notify.rb プラグインファイルです。
+* spec みっくストア用のspecファイルです。一応作ってみました。
+
 ##インストール
 ~/.mikutter/plugin以下で、このリポジトリをgit cloneしてください。  
 もしくは、GitHubのDownloads（ページ右上）から圧縮ファイルをダウンロードし、~/.mikutter/plugin以下に設置してください。
@@ -16,7 +20,7 @@ GitHubのリポジトリ、[syusui-s/dev-mikutter](https://github.com/syusui-s/d
 
 ##謝辞
 勝手ながら、  
-* toshiaさんのプラグインの一部の書き方を参考にさせていただきました。  
+* toshi-aさんのプラグインの一部の書き方を参考にさせていただきました。  
 * katsyoshiさんの[fav.rb](https://github.com/katsyoshi/fav)を一部参考にしています。
 
 ##ライセンス
