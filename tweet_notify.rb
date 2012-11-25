@@ -2,6 +2,7 @@
 # tweet_notify : mikutter用ツイート通知プラグイン
 # version 1.2(2012-11-25 12:40 +0900)
 # 
+# mikutter version 0.2.1.1066 core/plugin/notify.rbの一部を翻案しています。
 # 詳細は、README.mdをご覧ください。
 
 
