@@ -9,7 +9,7 @@
 Plugin::create(:tweet_notify) do
   UserConfig[:tweet_notify_users] ||= []
   
-  settings "ポスト通知" do
+  settings "ツイート通知" do
     boolean "通知", :tweet_notify_bool
     fileselect("通知音", :tweet_notify_sound, DEFAULT_SOUND_DIRECTORY)
     multi "ユーザー", :tweet_notify_users
